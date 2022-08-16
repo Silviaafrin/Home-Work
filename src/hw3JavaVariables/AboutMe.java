@@ -21,7 +21,8 @@ public class AboutMe {
 		AboutMe myInfo = new AboutMe(); //
 
 		System.out.println("My house number is: " + myInfo.houseNumber + " \nMy road name is: " + myInfo.roadName);
-		System.out.println("My county is: " + myInfo.county + ". \nMy state name is: " + myInfo.state + " \nMy zip code is "+myInfo.zipcode);
+		System.out.println("My county is: " + myInfo.county + ". \nMy state name is: " + myInfo.state
+				+ " \nMy zip code is " + myInfo.zipcode);
 		System.out.println("My Id Number is: " + myInfo.id + ". \nMy myGPA  is: " + myInfo.myGPA);
 	}
 }
